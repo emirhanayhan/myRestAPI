@@ -45,7 +45,7 @@ Response:HTTP 201 Created
 
 **Get a specific Trip by user id**
 
-localhost/8000/api/trip/withuserid/userId
+api/trip/withuserid/userId
 
 
 **Update**
