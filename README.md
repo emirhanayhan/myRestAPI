@@ -1,71 +1,70 @@
 # myRestAPI
-my rest api with django rest framework
+**my rest api with django rest framework**
 
 
-##Get User List
+**Get User List**
 
 localhost:8000/api/user/
 
 
-##Create User
+**Create User**
 
 POST/user/
+Response:HTTP 201 Created
 
 
-##Response:HTTP 201 Created
-
-Get specific User
+**Get specific User**
 
 localhost/8000/api/user/userId
 
 
-##Update
+**Update**
 
 PUT /user/userId/
 
 
-##Delete User
+**Delete User**
 
 DELETE /user/userId
                                        
 
-##Get Trip List
+**Get Trip List**
 
 localhost:8000/api/trip/
 
 
-##Create Trip
+**Create Trip**
 
 POST/trip/
 Response:HTTP 201 Created
 
 
-##Get a specific Trip
+**Get a specific Trip**
 
 localhost/8000/api/trip/tripId
 
 
-##Get a specific Trip by user id
+**Get a specific Trip by user id**
 
 localhost/8000/api/trip/withuserid/userId
 
 
-##Update
+**Update**
 
 PUT /trip/tripId
 
 
-##Update by user id
+**Update by user id**
 
 PUT /trip/withuserid/userId
 
 
-##Delete Trip
+**Delete Trip**
 
 DELETE /trip/tripId
 
 
-##Get a non-existent Trip or user
+**Get a non-existent Trip or user**
 
 Response
 'errors':
@@ -73,5 +72,3 @@ Response
 'code':404,
 'message':'Record can not found'
 }
-
-
