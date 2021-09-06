@@ -3,8 +3,7 @@
 
 
 **Get User List**
-
-localhost:8000/api/user/
+/api/user/
 
 
 **Create User**
@@ -15,7 +14,7 @@ Response:HTTP 201 Created
 
 **Get specific User**
 
-localhost/8000/api/user/userId
+/api/user/userId
 
 
 **Update**
@@ -30,7 +29,7 @@ DELETE /user/userId
 
 **Get Trip List**
 
-localhost:8000/api/trip/
+/api/trip/
 
 
 **Create Trip**
@@ -41,7 +40,7 @@ Response:HTTP 201 Created
 
 **Get a specific Trip**
 
-localhost/8000/api/trip/tripId
+/api/trip/tripId
 
 
 **Get a specific Trip by user id**
