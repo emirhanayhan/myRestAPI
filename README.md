@@ -31,9 +31,9 @@ localhost:8000/docapi
 
 **URLs**
 
-localhost:8000/api //api
+localhost:8000/api    
 
-localhost:8000/docapi //swagger documents
+localhost:8000/docapi       
 
 
 **Get User List**
