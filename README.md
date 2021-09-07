@@ -3,38 +3,46 @@
 
 
 
+---
 **How to start in venv**
 
-I.open cmd in venv
 
-II.execute python manage.py runserver command in venv
+- open cmd in venv
 
+- execute python manage.py runserver command in venv
+
+---
 
 **How to run tests**
 
-I. open cmd
 
-II. execute python manage.py test in command prompt
+- open cmd
 
+- execute python manage.py test in command prompt
+
+---
 
 **How to start in docker**
 
-I.open cmd
+- open cmd
 
-II. execute docker run --publish 8000:8000 djangoapi
+- execute docker run --publish 8000:8000 djangoapi
 
+---
 
 **Swagger Docs**
 
 localhost:8000/docapi
 
+---
 
 **URLs**
 
-localhost:8000/api    
+- localhost:8000/api    
 
-localhost:8000/docapi       
-
+- localhost:8000/docapi      
+ 
+---
 
 **Get User List**
 
@@ -60,6 +68,8 @@ PUT /user/userId/
 **Delete User**
 
 DELETE /user/userId
+
+---
                                        
 
 **Get Trip List**
@@ -100,9 +110,10 @@ DELETE /trip/tripId
 
 **Get a non-existent Trip or user**
 
-Response
+```javascript
 'errors':
 {
 'code':404,
 'message':'Record can not found'
 }
+```
