@@ -90,7 +90,7 @@ Response:HTTP 201 Created
 
 **Get a specific Trip by user id**
 
-api/trip/withuserid/userId
+api/tripwithuserid/userId
 
 
 **Update**
@@ -100,7 +100,7 @@ PUT /trip/tripId
 
 **Update by user id**
 
-PUT /trip/withuserid/userId
+PUT /tripwithuserid/userId
 
 
 **Delete Trip**
