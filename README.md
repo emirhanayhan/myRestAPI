@@ -23,7 +23,7 @@ II. execute docker run --publish 8000:8000 djangoapi
 
 **Swagger Docs**
 
-/docapi
+localhost:8000/docapi
 
 
 **Get User List**
