@@ -2,6 +2,26 @@
 **my rest api with django rest framework**
 
 
+
+**How to start in venv**
+I.open cmd in venv
+II.execute python manage.py runserver command in venv
+
+
+**How to run tests**
+I. open cmd
+II. execute python manage.py test in command prompt
+
+
+**How to start in docker**
+I.open cmd
+II. execute docker run --publish 8000:8000 djangoapi
+
+
+**Swagger Docs**
+/docapi
+
+
 **Get User List**
 /api/user/
 
