@@ -6,6 +6,6 @@ schema_view=get_swagger_view(title='crudAPI')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('crud.url')),
+    path('api/', include('Trips.url')),
     path('docapi',schema_view)
 ]

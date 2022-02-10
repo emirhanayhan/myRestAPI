@@ -27,7 +27,7 @@ class Migration(migrations.Migration):
                 ('tripId', models.AutoField(primary_key=True, serialize=False)),
                 ('totalDistance', models.IntegerField()),
                 ('beginningTime', models.CharField(max_length=10)),
-                ('userId', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='crud.users')),
+                ('userId', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='Trips.users')),
             ],
         ),
     ]
