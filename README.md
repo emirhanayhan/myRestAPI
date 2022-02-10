@@ -2,7 +2,7 @@
 **my rest api with django rest framework**
 
 
-
+BaseUrl = 'Localhost:8080'
 ---
 **How to start in venv**
 
@@ -32,15 +32,15 @@
 
 **Swagger Docs**
 
-localhost:8000/docapi
+BaseUrl/docapi
 
 ---
 
 **URLs**
 
-- localhost:8000/api    
+- BaseUrl/api    
 
-- localhost:8000/docapi      
+- BaseUrl/docapi      
  
 ---
 
